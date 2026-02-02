@@ -16,31 +16,42 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://unpkg.com/split-type"></script>
     <script type="module" crossorigin src="/quark-pulsez/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/quark-pulsez/assets/styles-CilSnI6m.css">
+    <link rel="stylesheet" crossorigin href="/quark-pulsez/assets/styles-Cz-_eWdt.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <nav class="nav">
-      <a href="/" class="logo">
+      <a href="./#hero" class="logo">
         <span class="logo-dot"></span> Quark Pulse
       </a>
       <ul class="nav-menu">
-        <li><a href="#hero">Главная</a></li>
-        <li><a href="#about">О платформе</a></li>
-        <li><a href="#benefits">Преимущества</a></li>
-        <li><a href="#innovations">Инновации</a></li>
-        <li><a href="#blog">Блог</a></li>
+        <li><a href="./#hero">Главная</a></li>
+        <li><a href="./#about">О платформе</a></li>
+        <li><a href="./#benefits">Преимущества</a></li>
+        <li><a href="./#innovations">Инновации</a></li>
+        <li><a href="./#blog">Блог</a></li>
       </ul>
-      <a href="#contact" class="btn btn-outline">Связаться</a>
+      <a href="./#contact" class="btn btn-outline">Связаться</a>
       <button class="burger" aria-label="Menu">
         <span></span>
       </button>
     </nav>
   </div>
 </header>
+<div class="mobile-menu-overlay">
+  <ul class="mobile-nav">
+    <li><a href="./#hero">Главная</a></li>
+    <li><a href="./#about">О платформе</a></li>
+    <li><a href="./#benefits">Преимущества</a></li>
+    <li><a href="./#innovations">Инновации</a></li>
+    <li><a href="./#blog">Блог</a></li>
+    <li><a href="./#contact" class="btn btn-primary">Связаться</a></li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
@@ -141,34 +152,198 @@
         </div>
     </div>
 </section>
+<section id="innovations" class="innovations">
+    <div class="container">
+        <div class="innov-row">
+            <div class="innov-content" data-aos="fade-up">
+                <span class="section-tag">Инновации</span>
+                <h2 class="section-title">Технологии, которые меняют правила игры</h2>
+                <p class="section-desc">
+                    Мы интегрируем AI-инструменты в каждый этап консалтинга. Это позволяет нам не просто следовать
+                    трендам, а предсказывать их, предоставляя вам решения нового поколения.
+                </p>
+                <ul class="innov-list">
+                    <li><i data-lucide="check-circle"></i> Прогнозная аналитика на базе нейросетей</li>
+                    <li><i data-lucide="check-circle"></i> Автоматизация сбора рыночных данных</li>
+                    <li><i data-lucide="check-circle"></i> Индивидуальные цифровые дорожные карты</li>
+                </ul>
+            </div>
+            <div class="innov-image-box" data-aos="zoom-in-up">
+                <img src="img/placeholder.png" class="parallax-img" alt="Digital Infrastructure">
+            </div>
+        </div>
+
+        <div class="innov-row reverse">
+            <div class="innov-content" data-aos="fade-up">
+                <span class="section-tag">Масштабирование</span>
+                <h2 class="section-title">Расширьте горизонты вашего проекта</h2>
+                <p class="section-desc">
+                    Наша передовая цифровая инфраструктура разработана для тех, кто ценит время. Оцените перспективы
+                    проекта за считанные часы, а не недели.
+                </p>
+                <div class="innov-stats">
+                    <div class="stat-card">
+                        <span class="stat-val">2.5x</span>
+                        <p>ускорение процессов</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">100%</span>
+                        <p>прозрачность данных</p>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary">Запросить доступ</a>
+            </div>
+            <div class="innov-image-box" data-aos="zoom-in-up">
+                <img src="img/placeholder.png" class="parallax-img" alt="Growth Strategy">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="blog" class="blog">
+    <div class="container">
+        <div class="blog-header" data-aos="fade-up">
+            <div>
+                <span class="section-tag">Блог и аналитика</span>
+                <h2 class="section-title text-white">Практики, применимые <span class="text-gradient">уже сегодня</span>
+                </h2>
+            </div>
+            <div class="swiper-controls">
+                <button class="swiper-prev"><i data-lucide="chevron-left"></i></button>
+                <button class="swiper-next"><i data-lucide="chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="swiper blog-slider" data-aos="fade-up" data-aos-delay="200">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="img/placeholder.png" alt="AI в консалтинге">
+                            <span class="post-category">Технологии</span>
+                        </div>
+                        <div class="post-body">
+                            <span class="post-date">12 Февраля, 2026</span>
+                            <h3>Как AI-инструменты меняют подход к анализу рисков</h3>
+                            <p>Разбираем, почему автоматизация сбора данных сокращает издержки на 40%...</p>
+                            <a href="#" class="post-link">Читать далее</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="img/placeholder.png" alt="Пассивный доход">
+                            <span class="post-category">Стратегия</span>
+                        </div>
+                        <div class="post-body">
+                            <span class="post-date">05 Февраля, 2026</span>
+                            <h3>Программа пассивного дохода на базе инноваций</h3>
+                            <p>Пошаговый путь, понятный каждому: как построить карьеру, которая работает на вас...</p>
+                            <a href="#" class="post-link">Читать далее</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="swiper-slide">
+                    <article class="post-card">
+                        <div class="post-img">
+                            <img src="img/placeholder.png" alt="Рынок Европы">
+                            <span class="post-category">Рынки</span>
+                        </div>
+                        <div class="post-body">
+                            <span class="post-date">28 Января, 2026</span>
+                            <h3>Платформа года: экспансия на рынки Европы</h3>
+                            <p>Детали на сайте: почему предложение активно только в странах ЕС и что это дает...</p>
+                            <a href="#" class="post-link">Читать далее</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-box" data-aos="zoom-in">
+            <div class="contact-info">
+                <h2 class="section-title">Готовы начать?</h2>
+                <p class="section-desc">Оставьте заявку на бесплатную консультацию по всем вопросам. Наш эксперт
+                    свяжется с вами в течение 15 минут.</p>
+
+                <div class="contact-details">
+                    <div class="c-item">
+                        <i data-lucide="mail"></i>
+                        <span>hello@quark-pulsez.life</span>
+                    </div>
+                    <div class="c-item">
+                        <i data-lucide="phone"></i>
+                        <span>+39 06 9763 9208</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="ajax-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" id="phone-input" placeholder="Телефон" required
+                            pattern="[0-9+]*">
+                    </div>
+
+                    <div class="captcha-row">
+                        <label for="captcha" id="captcha-label">Сколько будет 5 + 3?</label>
+                        <input type="text" id="captcha-input" placeholder="Ответ" required>
+                    </div>
+
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="agree" required>
+                        <label for="agree">Я согласен с <a href="personal-data-policy.html">политикой обработки
+                                данных</a></label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Отправить запрос</button>
+
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
     <footer class="footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a href="/" class="logo">Quark Pulse</a>
+        <a href="./#hero" class="logo">Quark Pulse</a>
         <p class="footer-desc">Технологии, которые работают на вас. Экспертная поддержка на всех этапах развития вашего
           проекта в Европе.</p>
       </div>
       <div class="footer-col">
         <h4>Меню</h4>
         <ul class="footer-links">
-          <li><a href="#hero">Главная</a></li>
-          <li><a href="#about">О платформе</a></li>
-          <li><a href="#benefits">Преимущества</a></li>
-          <li><a href="#blog">Блог</a></li>
+          <li><a href="./#hero">Главная</a></li>
+          <li><a href="./#about">О платформе</a></li>
+          <li><a href="./#benefits">Преимущества</a></li>
+          <li><a href="./#blog">Блог</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Юридическая информация</h4>
         <ul class="footer-links">
-          <li><a href="privacy.html">Конфиденциальность</a></li>
-          <li><a href="terms.html">Условия использования</a></li>
-          <li><a href="cookies.html">Cookies</a></li>
-          <li><a href="return.html">Возврат средств</a></li>
-          <li><a href="disclaimer.html">Отказ от ответственности</a></li>
-          <li><a href="personal-data-policy.html">Персональные данные</a></li>
+          <li><a href="./privacy.html">Конфиденциальность</a></li>
+          <li><a href="./terms.html">Условия использования</a></li>
+          <li><a href="./cookies.html">Cookies</a></li>
+          <li><a href="./return.html">Возврат средств</a></li>
+          <li><a href="./disclaimer.html">Отказ от ответственности</a></li>
+          <li><a href="./personal-data-policy.html">Персональные данные</a></li>
+            <li><a href="./contact.html">Контакты</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -185,7 +360,16 @@
     </div>
   </div>
 </footer>
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-content">
+        <i data-lucide="cookie"></i>
+        <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie
+            политике</a>.</p>
+        <button id="accept-cookies" class="btn btn-primary">Принять</button>
+      </div>
+    </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
