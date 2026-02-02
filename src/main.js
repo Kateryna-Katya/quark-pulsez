@@ -71,3 +71,12 @@ document.addEventListener('mousemove', (e) => {
         duration: 2
     });
 });
+// Initialize AOS
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100
+});
+
+// Update Lucide after HTML injection (if needed)
+lucide.createIcons();
